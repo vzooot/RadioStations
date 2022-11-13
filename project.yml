@@ -1,0 +1,15 @@
+name: RadioStations
+targets:
+  RadioStations:
+    type: framework
+    platform: iOS
+    deploymentTarget: "9.0"
+    sources: [RadioStations]
+    info:
+      path: ./Info.plist
+      version: 0.0.1
+    settings:
+      APPLICATION_EXTENSION_API_ONLY: true
+    scheme: {}
+    dependencies:
+    - carthage: AnyCodable
